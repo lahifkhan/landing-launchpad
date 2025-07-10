@@ -114,6 +114,7 @@ nav button{
     color: #252432;
     padding-right: 250px;
     margin: 23px 0px;
+    opacity: 50%;
 }
 .action-details button{
     width: 229px;
@@ -124,3 +125,42 @@ nav button{
     border-radius: 48px;
 }
 
+
+/* productive section styles */
+
+.productive{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    /* opacity: 10%; */
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+.productive-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 142px;
+}
+.productive-stat{
+    display: flex;
+    gap:167px;
+    margin-top: 40px;
+}
+.productive h4{
+    font-size: 38px;
+    font-weight: bold;
+    
+    
+}
+.productive-stat h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+
+.productive-stat p{
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+}
