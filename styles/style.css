@@ -18,6 +18,13 @@
     margin: 0px;
     padding: 0px;
  }
+ body{
+   /* background-color: rgba(242, 237, 237, 0.7); */
+   background-color: rgba(244, 246, 253, 1);
+
+     
+    
+ }
 
 .mx-width{
     max-width: 1140px;
@@ -167,7 +174,7 @@ nav button{
 
 /* review section style */
 .review{
-     background-color: #F2EDED;
+     /* background-color: #F2EDED; */
      padding: 24px;
      border-radius: 10px;
      margin-bottom: 137px;
@@ -212,4 +219,38 @@ nav button{
 
 .user img{
     border-radius: 50%;
+}
+
+
+/* focus section style */
+.ready-to-focus{
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 92px;
+}
+.focus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 71px 150px;
+}
+.focus h2{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.focus p{
+     opacity: 80%;
+     margin: 20px 0px;
+}
+
+.focus button{
+    width: 195px;
+    height: 48px;
+    margin-bottom:20px ;
+
+}
+.focus img{
+    border-radius: 48px;
 }
