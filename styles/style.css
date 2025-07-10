@@ -254,3 +254,50 @@ nav button{
 .focus img{
     border-radius: 48px;
 }
+
+
+
+/* get in touch section style */
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.get-in-touch h1{
+    font-size: 97px;
+    font-weight: bold;
+    width: 50%;
+}
+form input{
+    width: 497px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+form input {
+    padding-left: 20px;
+}
+form textarea{
+    padding-left: 32px;
+    padding-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 19px 0px 10px 0px;
+}
+
+form button{
+    padding: 19px 201px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
